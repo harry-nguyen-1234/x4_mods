@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+  <replace sel="/mdscript/cues/library[@name='GetValue_Notoriety']/actions/do_if[@value='event.param.{2} == level.trivial']/set_value/@exact">2.0f</replace>
+  <replace sel="/mdscript/cues/library[@name='GetValue_Notoriety']/actions/do_elseif[@value='event.param.{2} == level.veryeasy']/set_value/@exact">2.0f</replace>
+  <replace sel="/mdscript/cues/library[@name='GetValue_Notoriety']/actions/do_elseif[@value='event.param.{2} == level.easy']/set_value/@exact">2.8f</replace>
+  <replace sel="/mdscript/cues/library[@name='GetValue_Notoriety']/actions/do_elseif[@value='event.param.{2} == level.medium']/set_value/@exact">8.0f</replace>
+  <replace sel="/mdscript/cues/library[@name='GetValue_Notoriety']/actions/do_elseif[@value='event.param.{2} == level.hard']/set_value/@exact">40.0f</replace>
+  <replace sel="/mdscript/cues/library[@name='GetValue_Notoriety']/actions/do_elseif[@value='event.param.{2} == level.veryhard']/set_value/@exact">400.0f</replace>
+  <replace sel="/mdscript/cues/library[@name='GetValue_Notoriety']/actions/do_elseif[@value='event.param.{2} == level.impossible']/set_value/@exact">1000.0f</replace>
+</diff>
