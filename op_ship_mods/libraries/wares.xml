@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+  <add sel="/wares/ware[@id='mod_engine_boostduration_01_mk1']" pos="before">
+    <ware id="mod_engine_op" name="XTreme Engine" description="XTreme Engine" shortname="XTreme Engine" transport="inventory" volume="1" tags="crafting equipmentmod">
+      <price min="42500" average="50000" max="57500"/>
+      <production time="10" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="modpart_tuningsoftware" amount="1" />
+        </primary>
+        <research>
+          <ware ware="research_mod_ship_mk1" />
+        </research>
+      </production>
+    </ware>
+  </add>
+  <add sel="/wares/ware[@id='mod_shield_capacity_01_mk1']" pos="before">
+    <ware id="mod_shield_op" name="XTreme Shield" description="XTreme Shield" shortname="XTreme Shield" transport="inventory" volume="1" tags="crafting equipmentmod">
+      <price min="42500" average="50000" max="57500"/>
+      <production time="10" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="modpart_tuningsoftware" amount="1" />
+        </primary>
+        <research>
+          <ware ware="research_mod_ship_mk1" />
+        </research>
+      </production>
+    </ware>
+  </add>
+  <add sel="/wares/ware[@id='mod_ship_countermeasurecapacity_01_mk1']" pos="before">
+    <ware id="mod_ship_op" name="XTreme Chassis" description="Xtreme Chassis" shortname="XTreme Chassis" transport="inventory" volume="1" tags="crafting equipmentmod">
+      <price min="42500" average="50000" max="57500"/>
+      <production time="10" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="modpart_tuningsoftware" amount="1" />
+        </primary>
+        <research>
+          <ware ware="research_mod_ship_mk1" />
+        </research>
+      </production>
+    </ware>
+  </add>
+  <add sel="/wares/ware[@id='mod_weapon_beamlength_01_mk1']" pos="before">
+    <ware id="mod_weapon_op" name="XTreme Weapon" description="XTreme Weapon" shortname="XTreme Weapon" transport="inventory" volume="1" tags="crafting equipmentmod">
+      <price min="42500" average="50000" max="57500"/>
+      <production time="10" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="modpart_tuningsoftware" amount="1" />
+        </primary>
+        <research>
+          <ware ware="research_mod_ship_mk1" />
+        </research>
+      </production>
+    </ware>
+  </add>
+</diff>

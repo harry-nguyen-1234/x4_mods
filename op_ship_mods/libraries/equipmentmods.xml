@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+  <add sel="/equipmentmods/weapon">
+    <speed ware="mod_weapon_op" quality="1" min="2" max="2">
+      <bonus chance="1.0" max="6">
+        <damage min="2" max="2"/>
+        <reload min="2" max="2"/>
+        <rotationspeed min="2" max="2"/>
+        <cooling min="10" max="10"/>
+        <beamlength min="2" max="2"/>
+        <surfaceelement min="10" max="10"/>
+      </bonus>
+    </speed>
+  </add>
+  <add sel="/equipmentmods/engine">
+    <travelthrust ware="mod_engine_op" quality="1" min="1.2" max="1.2">
+      <bonus chance="1.0" max="7">
+        <forwardthrust min="1.2" max="1.2"/>
+        <travelstartthrust min="1.2" max="1.2"/>
+        <travelattacktime min="0" max="0"/>
+        <travelchargetime min="0" max="0"/>
+        <travelreleasetime min="0" max="0"/>
+        <rotationthrust min="2" max="2"/>
+        <strafethrust min="2" max="2"/>
+      </bonus>
+    </travelthrust>
+  </add>
+  <add sel="/equipmentmods/ship">
+    <mass ware="mod_ship_op" quality="1" min="0.8" max="0.8">
+      <bonus chance="1.0" max="3">
+        <drag min="0.8" max="0.8"/>
+        <regiondamage min="1.0" max="1.0"/>
+        <hidecargochance min="1.0" max="1.0"/>
+      </bonus>
+    </mass>
+  </add>
+  <add sel="/equipmentmods/shield">
+    <capacity ware="mod_shield_op" quality="1" min="10" max="10">
+      <bonus chance="1.0" max="2">
+        <rechargerate min="10" max="10"/>
+        <rechargedelay min="0" max="0"/>
+      </bonus>
+    </capacity>
+  </add>
+</diff>
